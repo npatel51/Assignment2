@@ -6,3 +6,10 @@
   max-height: 400px;
   overflow: auto;
 }
+
+.listingForm{
+  margin:10px;
+}
+p{
+  font-size:1em;
+}
