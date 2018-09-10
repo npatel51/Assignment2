@@ -7,8 +7,12 @@
   overflow: auto;
 }
 
+.detailedInfoWrapper{
+  margin-top:10px;
+}
+
 .listingForm{
-  margin:5px;
+  margin:8px;
 }
 
 .container .jumbotron, .container-fluid .jumbotron {

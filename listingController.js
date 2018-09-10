@@ -2,6 +2,7 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
   function($scope, Listings) {
     $scope.listings = Listings; 
     $scope.detailedInfo = undefined;
+    $scope.showDetail = false;
 
     /* 
       Implement these functions in the controller to make your application function 
@@ -38,6 +39,7 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
     };
     //shows detailed information about the object passed
     $scope.showDetails = function(listing) {
+         $scope.showDetail = true;
          let index = $scope.indexOfListing(listing);
          $scope.detailedInfo = $scope.listings[index];
     };
