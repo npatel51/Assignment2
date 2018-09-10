@@ -3,13 +3,19 @@
 }
 
 .tableWrapper {
-  max-height: 400px;
+  max-height: 440px;
   overflow: auto;
 }
 
 .listingForm{
-  margin:10px;
+  margin:5px;
 }
-p{
-  font-size:1em;
+
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-right:9px;
+  padding-left:9px;
+}
+
+.jumbotron {
+  padding: 3px;
 }
