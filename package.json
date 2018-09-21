@@ -2,18 +2,15 @@
   "name": "assignment2",
   "version": "1.0.0",
   "description": "We will continue to build upon our directory application by creating a front-end interface with Angular.js to display listings, as well as the ability to add new listings and delete old ones.",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": "10.5.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/npatel51/Assignment2.git"
   },
-  "author": "",
+  "author": "Niraj Patel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/npatel51/Assignment2/issues"
